@@ -1,0 +1,36 @@
+2021-06-07 23:56:05,141 : CRITICAL : 
+ PWE Experiment 3: Tweet embedding with Average Glove2(tweet) PWE - Train and Test Splitted %60 and %40
+2021-06-07 23:56:09,400 : CRITICAL : beginning: of calc_iter_acc
+2021-06-07 23:56:09,401 : CRITICAL : first: inferring user_vecs_train
+2021-06-07 23:59:30,770 : CRITICAL : second: inferring user_vecs_test
+2021-06-08 00:01:45,284 : CRITICAL : end of: calc_iter_acc
+2021-06-08 00:01:45,308 : CRITICAL : Total Acc is 167/200 = 0.835
+
+2021-06-08 00:01:45,332 : CRITICAL : overall acc. how many users are closest to their group 
+ twcollector3 38/40 Acc 0.95
+twcollector5 39/40 Acc 0.975
+twcollector1 24/40 Acc 0.6
+twcollector2 28/40 Acc 0.7
+twcollector4 38/40 Acc 0.95
+
+
+2021-06-08 00:01:45,355 : CRITICAL : [[24  7  1  2  6]
+ [ 5 28  5  1  1]
+ [ 0  0 38  1  1]
+ [ 0  1  1 38  0]
+ [ 0  0  0  1 39]]
+2021-06-08 00:01:45,360 : CRITICAL :               precision    recall  f1-score   support
+
+twcollector1      0.828     0.600     0.696        40
+twcollector2      0.778     0.700     0.737        40
+twcollector3      0.844     0.950     0.894        40
+twcollector4      0.884     0.950     0.916        40
+twcollector5      0.830     0.975     0.897        40
+
+    accuracy                          0.835       200
+   macro avg      0.833     0.835     0.828       200
+weighted avg      0.833     0.835     0.828       200
+
+2021-06-08 00:01:45,360 : CRITICAL : saveJSon started
+2021-06-08 00:01:45,465 : CRITICAL : saveJSon finished
+2021-06-08 00:01:45,465 : CRITICAL : end of: calc_iter_acc

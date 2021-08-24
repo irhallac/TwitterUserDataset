@@ -1,0 +1,6 @@
+Doc2vec 
+min count 5
+Dm 1
+Epoch 19
+Dataset = A + B + C
+embeddings
